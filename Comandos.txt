@@ -1,0 +1,22 @@
+1.-Crear red Docker
+	docker network create mysql-network
+2.- Crear volumen (bindmount)
+	docker volume create mysql-volume
+3.-Crear contenedor de MySQL
+docker run -d \
+ --name mysql-container \
+ --network mysql-network \
+ -e MYSQL_ROOT_PASSWORD=Admin1992@ \
+ -e MYSQL_DATABASE=epmmop \
+ -e MYSQL_USER=adminmdmq \
+ -e MYSQL_PASSWORD=Emmeth2906@ \
+ -v $(pwd)/mysql-volumen:/var/lib/mysql \
+ -v $(pwd)/mysql-init:/docker-entrypoint-initdb.d \
+ 	 mysql:8.0
+4.-Crear contenedor de phpMyAdmin
+docker run -d \
+  --name phpmyadmin-container \
+  --network mysql-network \
+  -e PMA_HOST=mysql-container \
+  -e PMA_PORT=3306 \
+  -p 8080:80 \
