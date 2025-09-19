@@ -1,4 +1,4 @@
-# 📌 Nombre del Proyecto
+# 📌 DESPLIEGUE MySQL 8.0 + phpMyAdmin en Docker
 
 Descripción breve del proyecto: qué hace, para qué sirve y por qué es útil.
 
