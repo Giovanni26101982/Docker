@@ -51,18 +51,6 @@ Este enfoque facilita el desarrollo, las pruebas y el despliegue, al mismo tiemp
 --- 
 1. **Clonar el repositorio en el directorio**
 
-```bash
-# Clonar el repositorio
-git clone https://github.com/usuario/repositorio.git
-
-# Entrar en la carpeta
-cd repositorio
-
-# Instalar dependencias
-npm install   # o pip install -r requirements.txt
-
-```
-
 <img width="827" height="198" alt="01" src="https://github.com/user-attachments/assets/7982315d-5d0b-411c-bacd-7ce12303d66c" />
 
 --- 
@@ -70,15 +58,7 @@ npm install   # o pip install -r requirements.txt
 2. **Navegar al directorio /Docker y listar los archivos**
 
 ```bash
-# Clonar el repositorio
-git clone https://github.com/usuario/repositorio.git
-
-# Entrar en la carpeta
-cd repositorio
-
-# Instalar dependencias
-npm install   # o pip install -r requirements.txt
-
+ls -l
 ```
 <img width="828" height="198" alt="02" src="https://github.com/user-attachments/assets/bc339bec-c4a2-422f-bc06-441a6352f296" />
 
@@ -93,11 +73,35 @@ npm install   # o pip install -r requirements.txt
 4. **Crear la Red**
    ```bash
    docker network create mysql-network
+   ```
+   <img width="826" height="51" alt="04" src="https://github.com/user-attachments/assets/1e68d637-235d-4aa2-8051-05b52be45349" />
+
+--- 
+
+5. **Crear un Volumen**
+ ```bash
+   docker volume create mysql-volume
+   ```
+   <img width="829" height="53" alt="05" src="https://github.com/user-attachments/assets/b43e6e46-eb3f-4402-a0e2-daa402116cb1" />
+
+--- 
+
+6. **Crear contenedor de MySQL (con versión 9.0)**
+ ```bash
+ docker run -d \
+ --name mysql-container \
+ --network mysql-network \
+ --env-file .env \
+ -v $(pwd)/mysql-volumen:/var/lib/mysql \
+ -v $(pwd)/mysql-init:/docker-entrypoint-initdb.d \
+ mysql:9.0
 
    ```
-   
-6. s
+<img width="840" height="487" alt="06" src="https://github.com/user-attachments/assets/cc5a53d2-3487-492f-ba5e-9552f81b1d3c" />
 
+   
+
+--- 
 
 | Paso | Descripción | Comando |Resultado |
 |------|-------------|---------|---------|
