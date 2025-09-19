@@ -1,7 +1,6 @@
 # 📌 Grupo 4
 ## 📌 TAREA 01: Despliegue MySQL 8.0 + phpMyAdmin en Docker
 
-Desplegar una infraestructura de MySQL + phpMyAdmin usando contenedores, redes y volúmenes. 
 
 ---
 
@@ -16,9 +15,27 @@ Desplegar una infraestructura de MySQL + phpMyAdmin usando contenedores, redes y
 
 ---
 
-## 📂 Estructura del Proyecto
+## 📝 Descripción
+Desplegar una infraestructura de MySQL + phpMyAdmin usando contenedores, redes y volúmenes.  
 
+---
 
+## 🚀 Características
+- MySQL 8.0  
+- phpMyAdmin
+
+---  
+
+## 📂 Estructura
+```bash
+├── docs/          # Documentación
+├── src/           # Código fuente
+├── tests/         # Pruebas
+├── .gitignore     
+├── README.md
+└── LICENSE
+```
+--- 
 
 
 # MySQL 8.0 + phpMyAdmin en Docker
@@ -32,36 +49,7 @@ Desplegar una infraestructura de MySQL + phpMyAdmin usando contenedores, redes y
 | 5 |Acceder desde el **navegador** y autenticarse con las credenciales de MySQL. | Abrir `http://localhost:8080/index.php?route=/` e ingresar con las credenciales configuradas en el contenedor MySQL |<img width="886" height="580" alt="image" src="https://github.com/user-attachments/assets/7dbb7dd2-8a42-4bc9-b649-8f24275792f5" /> <img width="886" height="553" alt="image" src="https://github.com/user-attachments/assets/e1dbae8b-4424-412e-a2ed-2978b0e81f7d" />|
 
 
-# 📌 Nombre del Proyecto
 
-Breve descripción del proyecto: su propósito, objetivo principal y a quién va dirigido.  
-
----
-
-## 📖 Índice
-1. [Descripción](#-descripción)
-2. [Características](#-características)
-3. [Instalación](#-instalación)
-4. [Uso](#-uso)
-5. [Ejemplos](#-ejemplos)
-6. [Tecnologías Utilizadas](#-tecnologías-utilizadas)
-7. [Contribuciones](#-contribuciones)
-8. [Autores](#-autores)
-9. [Licencia](#-licencia)
-
----
-
-## 📝 Descripción
-Explica de qué trata el proyecto, su alcance y el problema que resuelve.  
-
----
-
-## 🚀 Características
-- Funcionalidad 1  
-- Funcionalidad 2  
-- Funcionalidad 3  
-
----
 
 ## ⚙️ Instalación
 Pasos para instalar y configurar el proyecto:  
@@ -77,22 +65,8 @@ cd repositorio
 npm install   # o pip install -r requirements.txt
 
 ```
-# 📑 Informe del Proyecto
 
-## 📝 Resumen Ejecutivo
-Breve introducción sobre el proyecto:  
-- Objetivo principal.  
-- Problema que resuelve.  
-- Beneficios esperados.  
 
----
-
-## 🎯 Objetivos
-- Objetivo 1  
-- Objetivo 2  
-- Objetivo 3  
-
----
 
 ## 📌 Alcance
 Describe los límites del proyecto:  
