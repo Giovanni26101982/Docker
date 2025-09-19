@@ -48,6 +48,7 @@ Este enfoque facilita el desarrollo, las pruebas y el despliegue, al mismo tiemp
 
 ## 🛠 Desarrollo - Procedimiento
 
+--- 
 1. **Clonar el repositorio en el directorio**
 
 ```bash
@@ -64,6 +65,7 @@ npm install   # o pip install -r requirements.txt
 
 <img width="827" height="198" alt="01" src="https://github.com/user-attachments/assets/7982315d-5d0b-411c-bacd-7ce12303d66c" />
 
+--- 
 
 2. **Navegar al directorio /Docker y listar los archivos**
 
@@ -80,12 +82,21 @@ npm install   # o pip install -r requirements.txt
 ```
 <img width="828" height="198" alt="02" src="https://github.com/user-attachments/assets/bc339bec-c4a2-422f-bc06-441a6352f296" />
 
-3. **Tree ->**
+--- 
 
+3. **Tree ->**
 
 <img width="289" height="157" alt="03" src="https://github.com/user-attachments/assets/a3d4c6b3-9700-48f6-9da5-b1982b014fbd" />
 
-5. ** **
+--- 
+
+4. **Crear la Red**
+   ```bash
+   docker network create mysql-network
+
+   ```
+   
+6. s
 
 
 | Paso | Descripción | Comando |Resultado |
