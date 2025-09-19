@@ -49,10 +49,28 @@ Desplegar una infraestructura de MySQL + phpMyAdmin usando contenedores, redes y
 
 ---
 
-## ⚙️ Concluciones
-Explica el enfoque utilizado:  
-- Metodología de desarrollo (ágil, cascada, etc.)  
-- Herramientas empleadas.  
-- Flujo de trabajo.  
+## ✅ Conclusiones
+
+1. **Facilidad de despliegue**  
+   Docker permite levantar un entorno con MySQL 9.0 y PhpMyAdmin en pocos comandos, sin necesidad de configuraciones manuales extensas.  
+
+2. **Portabilidad**  
+   El proyecto puede ejecutarse en cualquier máquina con Docker, garantizando que las versiones de MySQL y PhpMyAdmin sean consistentes entre distintos entornos (desarrollo, pruebas, producción).  
+
+3. **Aislamiento**  
+   La base de datos y la herramienta de administración corren en contenedores independientes, evitando conflictos con instalaciones locales.  
+
+4. **Escalabilidad**  
+   La configuración con `docker-compose` permite agregar fácilmente nuevos servicios (como un backend o balanceador) sin alterar la base de datos ya levantada.  
+
+5. **Mantenimiento reducido**  
+   Las actualizaciones de MySQL o PhpMyAdmin se realizan simplemente cambiando la imagen en el `docker-compose.yml`, simplificando el mantenimiento a largo plazo.  
+
+6. **Acceso simplificado**  
+   PhpMyAdmin brinda una interfaz gráfica accesible desde el navegador, lo que facilita la gestión de la base de datos para usuarios no familiarizados con la línea de comandos.  
+
+7. **Persistencia de datos**  
+   Con volúmenes de Docker, los datos se conservan incluso si los contenedores se reinician o eliminan, asegurando confiabilidad.  
+
 
 ---
