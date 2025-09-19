@@ -71,8 +71,8 @@ ls -l
 --- 
 
 4. **Crear la Red**
-   ```bash
-   docker network create mysql-network
+```bash
+docker network create mysql-network
    ```
    <img width="826" height="51" alt="04" src="https://github.com/user-attachments/assets/1e68d637-235d-4aa2-8051-05b52be45349" />
 
@@ -99,7 +99,19 @@ ls -l
    ```
 <img width="840" height="487" alt="06" src="https://github.com/user-attachments/assets/cc5a53d2-3487-492f-ba5e-9552f81b1d3c" />
 
-   
+--- 
+
+7. **Crear contenedor de phpMyAdmin**
+ ```bash
+ docker run -d \
+ --name phpmyadmin-container \
+ --network mysql-network \
+ --env-file .env \
+ -p 8080:80 \
+ phpmyadmin:5.2.1
+
+   ```
+<img width="829" height="657" alt="07" src="https://github.com/user-attachments/assets/3e5297e4-c448-4b5c-8538-1c321cfebddd" />
 
 --- 
 
