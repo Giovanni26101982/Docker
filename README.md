@@ -39,9 +39,10 @@ Este enfoque facilita el desarrollo, las pruebas y el despliegue, al mismo tiemp
 ```bash
 ├── .env/          
 ├── comandos.txt/         # Código fuente
-├── init.sql              # Base de datos
-├── README.md
-└── LICENSE
+├── mysql-init
+├   └── init.sql              # Base de datos
+└── README.md
+
 ```
 --- 
 
