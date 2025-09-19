@@ -7,7 +7,7 @@ Desplegar una infraestructura de MySQL + phpMyAdmin usando contenedores, redes y
 
 ## 🚀 Integrantes
 | Nro. | Nombre | Link |
-|------|---------|---------|---------|
+|------|---------|---------|
 | 1 | Giovanni Xavier Baño Jaya | https://github.com/Giovanni26101982/Grupo4_Docker_Tarea1#:~:text=Settings-,Grupo4_Docker_Tarea1,-Public |
 | 2 | Portero Salas Onofre Lolislao | https://github.com/oportero/Grupo4_Docker_Tarea1 |
 | 3 | Jara Pauta Cesar Paúl |   |
