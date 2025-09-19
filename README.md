@@ -6,13 +6,13 @@ Desplegar una infraestructura de MySQL + phpMyAdmin usando contenedores, redes y
 ---
 
 ## 🚀 Integrantes
-| Nro. | Nombre | Repositorio | Link |
+| Nro. | Nombre | Link |
 |------|---------|---------|---------|
-| 1 | Giovanni Xavier Baño Jaya | Grupo4_Docker_Tarea1| https://github.com/Giovanni26101982/Grupo4_Docker_Tarea1#:~:text=Settings-,Grupo4_Docker_Tarea1,-Public |
-| 2 | Portero Salas Onofre Lolislao | Grupo4_Docker_Tarea1| https://github.com/oportero/Grupo4_Docker_Tarea1 |
-| 3 | Jara Pauta Cesar Paúl | Grupo4_Docker_Tarea1| https://github.com/Giovanni26101982/Grupo4_Docker_Tarea1#:~:text=Settings-,Grupo4_Docker_Tarea1,-Public |
-| 4 | Maldonado Flores Oscar Alexander | Grupo4_Docker_Tarea1| https://github.com/Giovanni26101982/Grupo4_Docker_Tarea1#:~:text=Settings-,Grupo4_Docker_Tarea1,-Public |
-| 5 | Balarezo Leon Ricardo Martin | Grupo4_Docker_Tarea1| https://github.com/Giovanni26101982/Grupo4_Docker_Tarea1#:~:text=Settings-,Grupo4_Docker_Tarea1,-Public |
+| 1 | Giovanni Xavier Baño Jaya | https://github.com/Giovanni26101982/Grupo4_Docker_Tarea1#:~:text=Settings-,Grupo4_Docker_Tarea1,-Public |
+| 2 | Portero Salas Onofre Lolislao | https://github.com/oportero/Grupo4_Docker_Tarea1 |
+| 3 | Jara Pauta Cesar Paúl |   |
+| 4 | Maldonado Flores Oscar Alexander |  |
+| 5 | Balarezo Leon Ricardo Martin |  |
 
 ---
 
