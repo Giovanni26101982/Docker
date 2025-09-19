@@ -1,3 +1,21 @@
+# 📌 Nombre del Proyecto
+
+Descripción breve del proyecto: qué hace, para qué sirve y por qué es útil.
+
+---
+
+## 🚀 Características
+- Funcionalidad 1
+- Funcionalidad 2
+- Funcionalidad 3
+
+---
+
+## 📂 Estructura del Proyecto
+
+
+
+
 # MySQL 8.0 + phpMyAdmin en Docker
 
 | Paso | Descripción | Comando |Resultado |
