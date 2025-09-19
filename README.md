@@ -138,8 +138,8 @@ docker network create mysql-network
 
 11. **Usar las credenciales del .env**
 
-   [MYSQL_USER=adminmdmq]
-   [MYSQL_PASSWORD=Emmeth2906@]
+   - MYSQL_USER=adminmdmq
+   - MYSQL_PASSWORD=Emmeth2906@
 
 <img width="1069" height="409" alt="11" src="https://github.com/user-attachments/assets/4ad24c70-8b7e-4db6-af4c-747be9bf53a5" />
 
