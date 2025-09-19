@@ -131,9 +131,7 @@ docker network create mysql-network
 --- 
 
 10. **Abrir un navegador en el host y abrir la dirección http://localhost:8080/**
- ```bash
- [docker ps -a](http://localhost:8080/)
-   ```
+
 <img width="1071" height="572" alt="09" src="https://github.com/user-attachments/assets/ac560485-1868-4bed-957b-f975eb21dfc9" />
 
 --- 
