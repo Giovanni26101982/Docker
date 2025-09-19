@@ -48,9 +48,49 @@ Este enfoque facilita el desarrollo, las pruebas y el despliegue, al mismo tiemp
 
 ## 🛠 Desarrollo - Procedimiento
 
+1. **Clonar el repositorio en el directorio**
+
+```bash
+# Clonar el repositorio
+git clone https://github.com/usuario/repositorio.git
+
+# Entrar en la carpeta
+cd repositorio
+
+# Instalar dependencias
+npm install   # o pip install -r requirements.txt
+
+```
+
+<img width="827" height="198" alt="01" src="https://github.com/user-attachments/assets/7982315d-5d0b-411c-bacd-7ce12303d66c" />
+
+
+2. **Navegar al directorio /Docker y listar los archivos**
+
+```bash
+# Clonar el repositorio
+git clone https://github.com/usuario/repositorio.git
+
+# Entrar en la carpeta
+cd repositorio
+
+# Instalar dependencias
+npm install   # o pip install -r requirements.txt
+
+```
+<img width="828" height="198" alt="02" src="https://github.com/user-attachments/assets/bc339bec-c4a2-422f-bc06-441a6352f296" />
+
+3. **Tree ->**
+
+
+<img width="289" height="157" alt="03" src="https://github.com/user-attachments/assets/a3d4c6b3-9700-48f6-9da5-b1982b014fbd" />
+
+5. ** **
+
+
 | Paso | Descripción | Comando |Resultado |
 |------|-------------|---------|---------|
-| 1 | Crear una red interna para que los contenedores se comuniquen. | ```docker network create mysql-network``` |<img width="886" height="194" alt="image" src="https://github.com/user-attachments/assets/ad87f830-8578-4a33-8998-7c051ba28854" />|
+| 1 | Crear una red interna para que los contenedores se comuniquen. | ``` docker network create mysql-network``` |<img width="886" height="194" alt="image" src="https://github.com/user-attachments/assets/ad87f830-8578-4a33-8998-7c051ba28854" />|
 | 2 | Crear un **volumen** para persistir los datos de MySQL entre reinicios. | ```docker volume create mysql-volume``` |<img width="886" height="174" alt="image" src="https://github.com/user-attachments/assets/9dcdbde4-aab8-43e8-a49f-456c57902745" />|
 | 3 | Levantar **MySQL 8.0** con variables de entorno y persistencia | ```docker run -d \ --name mysql-container \ --network mysql-network \ -e MYSQL_ROOT_PASSWORD=Admin1992@ \ -e MYSQL_DATABASE=epmmop \  -e MYSQL_USER=adminmdmq \ -e MYSQL_PASSWORD=Emmeth2906@ \ -v $(pwd)/mysql-volumen:/var/lib/mysql \ -v $(pwd)/mysql-init:/docker-entrypoint-initdb.d \ mysql:8.0 ``` |<img width="886" height="97" alt="image" src="https://github.com/user-attachments/assets/79a38fba-af0f-4fd2-b4a0-3eb06744996e" />|
 | 4 | Levantar **phpMyAdmin** conectado al servicio MySQL de la red. | ```docker run -d \   --name phpmyadmin-container \ --network mysql-network \    -e PMA_HOST=mysql-container \ -e PMA_PORT=3306 \   -p 8080:80 \``` |<img width="886" height="97" alt="image" src="https://github.com/user-attachments/assets/79a38fba-af0f-4fd2-b4a0-3eb06744996e" />|
