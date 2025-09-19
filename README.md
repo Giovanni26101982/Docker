@@ -109,11 +109,35 @@ docker network create mysql-network
  --env-file .env \
  -p 8080:80 \
  phpmyadmin:5.2.1
-
    ```
 <img width="829" height="657" alt="07" src="https://github.com/user-attachments/assets/3e5297e4-c448-4b5c-8538-1c321cfebddd" />
 
 --- 
+
+8. **Verificar los contenedores creados**
+ ```bash
+ docker ps -a
+   ```
+<img width="1070" height="71" alt="08" src="https://github.com/user-attachments/assets/31d91463-2103-4dfb-b06d-411682f542be" />
+
+--- 
+
+9. **Abrir un navegador en el host y abrir la dirección http://localhost:8080/**
+ ```bash
+ [docker ps -a](http://localhost:8080/)
+   ```
+<img width="1071" height="572" alt="09" src="https://github.com/user-attachments/assets/ac560485-1868-4bed-957b-f975eb21dfc9" />
+
+--- 
+
+10. **Abrir un navegador en el host y abrir la dirección http://localhost:8080/**
+ ```bash
+ [docker ps -a](http://localhost:8080/)
+   ```
+<img width="1071" height="572" alt="09" src="https://github.com/user-attachments/assets/ac560485-1868-4bed-957b-f975eb21dfc9" />
+
+--- 
+
 
 | Paso | Descripción | Comando |Resultado |
 |------|-------------|---------|---------|
