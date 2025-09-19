@@ -15,8 +15,17 @@
 
 ---
 
-## 📝 Descripción
-Desplegar una infraestructura de MySQL + phpMyAdmin usando contenedores, redes y volúmenes.  
+## 📖 Introducción
+
+El despliegue de servicios en contenedores permite crear entornos ligeros, portables y fáciles de administrar.  
+En este proyecto se implementa una infraestructura básica compuesta por **MySQL** como motor de base de datos y **phpMyAdmin** como herramienta de gestión web, utilizando **Docker**.  
+
+La solución aprovecha:
+- **Contenedores** para ejecutar cada servicio de forma aislada.  
+- **Redes** para permitir la comunicación segura entre los servicios sin exponer puertos innecesarios.  
+- **Volúmenes** para garantizar la persistencia de los datos, incluso si los contenedores son eliminados o reiniciados.  
+
+Este enfoque facilita el desarrollo, las pruebas y el despliegue, al mismo tiempo que reduce los problemas de configuración y compatibilidad entre entornos.  
 
 ---
 
