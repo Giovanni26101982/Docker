@@ -36,8 +36,7 @@ Desplegar una infraestructura de MySQL + phpMyAdmin usando contenedores, redes y
 ```
 --- 
 
-
-# MySQL 8.0 + phpMyAdmin en Docker
+## 🛠 Desarrollo - Procedimiento
 
 | Paso | Descripción | Comando |Resultado |
 |------|-------------|---------|---------|
@@ -48,54 +47,12 @@ Desplegar una infraestructura de MySQL + phpMyAdmin usando contenedores, redes y
 | 5 |Acceder desde el **navegador** y autenticarse con las credenciales de MySQL. | Abrir `http://localhost:8080/index.php?route=/` e ingresar con las credenciales configuradas en el contenedor MySQL |<img width="886" height="580" alt="image" src="https://github.com/user-attachments/assets/7dbb7dd2-8a42-4bc9-b649-8f24275792f5" /> <img width="886" height="553" alt="image" src="https://github.com/user-attachments/assets/e1dbae8b-4424-412e-a2ed-2978b0e81f7d" />|
 
 
-
-
-## ⚙️ Instalación
-Pasos para instalar y configurar el proyecto:  
-
-```bash
-# Clonar el repositorio
-git clone https://github.com/usuario/repositorio.git
-
-# Entrar en la carpeta
-cd repositorio
-
-# Instalar dependencias
-npm install   # o pip install -r requirements.txt
-
-```
-
-
-
-## 📌 Alcance
-Describe los límites del proyecto:  
-- Qué incluye.  
-- Qué no incluye.  
-
 ---
 
-## ⚙️ Metodología
+## ⚙️ Concluciones
 Explica el enfoque utilizado:  
 - Metodología de desarrollo (ágil, cascada, etc.)  
 - Herramientas empleadas.  
 - Flujo de trabajo.  
 
 ---
-
-## 🛠 Tecnologías Utilizadas
-- Lenguaje(s) de programación  
-- Frameworks  
-- Bases de datos  
-- Servicios externos  
-
----
-
-## 📂 Estructura del Proyecto
-```bash
-├── docs/          # Documentación
-├── src/           # Código fuente
-├── tests/         # Pruebas
-├── .gitignore     
-├── README.md
-└── LICENSE
-```
