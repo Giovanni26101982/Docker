@@ -1,5 +1,5 @@
 # 📌 Grupo 4
-## 📌 TAREA 01: Despliegue MySQL 8.0 + phpMyAdmin en Docker
+## 📌 TAREA 01: Despliegue MySQL 9.0 + phpMyAdmin 5.2.1 en Docker 
 
 
 ---
@@ -21,8 +21,8 @@ Desplegar una infraestructura de MySQL + phpMyAdmin usando contenedores, redes y
 ---
 
 ## 🚀 Características
-- MySQL 8.0  
-- phpMyAdmin
+- MySQL 9.0  
+- phpMyAdmin 5.2.1
 
 ---  
 
