@@ -28,10 +28,9 @@ Desplegar una infraestructura de MySQL + phpMyAdmin usando contenedores, redes y
 
 ## 📂 Estructura
 ```bash
-├── docs/          # Documentación
-├── src/           # Código fuente
-├── tests/         # Pruebas
-├── .gitignore     
+├── .env/          
+├── comandos.txt/         # Código fuente
+├── init.sql              # Base de datos
 ├── README.md
 └── LICENSE
 ```
